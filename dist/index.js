@@ -357,9 +357,6 @@
           });
         }
       }, {
-        key: 'ref',
-        value: {}
-      }, {
         key: 'render',
         value: function render() {
           var style = Object.assign({}, mapStyles.map, this.props.style, {
@@ -373,7 +370,7 @@
             { style: containerStyles, className: this.props.className },
             _react2.default.createElement(
               'div',
-              { style: style, ref: (element) => (this.ref.map = element) },
+              { style: style, ref: 'map' },
               'Loading map...'
             ),
             this.renderChildren()

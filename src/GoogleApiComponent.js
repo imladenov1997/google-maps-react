@@ -51,8 +51,6 @@ export const wrapper = input => WrappedComponent => {
         google: null,
         options: options
       };
-
-      this.mapRef=React.createRef();
     }
 
     componentWillReceiveProps(props) {
@@ -122,7 +120,7 @@ export const wrapper = input => WrappedComponent => {
       return (
         <div>
           <WrappedComponent {...props} />
-          <div ref={this.mapRef} />
+          <div ref="map" />
         </div>
       );
     }
