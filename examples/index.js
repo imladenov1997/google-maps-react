@@ -19,7 +19,6 @@ import Autocomplete from './components/autocomplete';
 import HeatMap from './components/withHeatMap';
 import Polygon from './components/withPolygons';
 import Polyline from './components/withPolylines';
-import Rectangle from './components/withRectangle';
 import CustomEvents from './components/resizeEvent';
 
 const routes = [
@@ -62,11 +61,6 @@ const routes = [
     path: '/polyline',
     name: 'Polyline',
     component: Polyline
-  },
-  {
-    path: '/rectangle',
-    name: 'Rectangle',
-    component: Rectangle
   },
   {
     path: '/onResizeEvent',
