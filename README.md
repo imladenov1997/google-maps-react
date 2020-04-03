@@ -103,7 +103,7 @@ const style = {
   height: '100%'
 }
 ```
-initialCenter: Takes an object containing latitude and longitude coordinates. Sets the maps center upon loading.
+initalCenter: Takes an object containing latitude and longitude coordinates. Sets the maps center upon loading.
 
 ```javascript
     <Map
